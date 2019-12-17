@@ -11,6 +11,8 @@ const App = () => {
     setSavedList([...savedList, movie]);
   };
 
+  console.log('cc: App.js: App: console.log savedList: ', savedList)
+
   return (
     <>
       <SavedList list={savedList} />
